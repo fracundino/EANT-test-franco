@@ -1,0 +1,5 @@
+min_sample_split=Minimo numero de observaciones para que un nodo se abra
+este valor nunca debe ser mayor al del leaf o tira error
+
+Predecir train y test es para poder comparar si hay overfitting, porque se comparan los valores de traning con los de test, si hay mucha diferencia el modelo
+no es bueno. Cuando hay mucha diferencia entre ambos es porque hay overfitting en traning. La idea seria que ambos sean lo mas cercano posibles ya que test responde bien a train.
